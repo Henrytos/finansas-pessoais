@@ -1,9 +1,23 @@
 {
+  "name": "finansas-pessoais",
+  "version": "1.0.0",
   "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Henrytos/finansas-pessoais.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Henrytos/finansas-pessoais/issues"
+  },
+  "homepage": "https://github.com/Henrytos/finansas-pessoais#readme",
   "dependencies": {
     "json-server": "^0.17.3"
-  },
-  "scripts": {
-    "json-server": "json-server --watch db.json"
   }
 }

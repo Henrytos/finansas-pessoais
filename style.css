@@ -85,9 +85,21 @@ section {
 
 .positeve {
   color: #23ab72;
+  transform: translateX(30px);
 }
 .negative {
   color: #e64e4e;
+  transform: translateX(30px);
+}
+.positeve-title::before {
+  content: url("./seta-verde.png");
+  position: relative;
+  top: 48px;
+}
+.negative-title::before {
+  content: url("./seta-vermelha.png");
+  position: relative;
+  top: 48px;
 }
 
 .btn {
